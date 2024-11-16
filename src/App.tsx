@@ -15,7 +15,7 @@ function App() {
       <div className=' bg-blue-200 rounded-lg p-6'>
         AAA
       </div>
-      <div className=' bg-blue-200 rounded-lg p-6'>
+      <div className=' border border-blue-900 bg-blue-200 rounded-lg p-6'>
         AAA
       </div>
       <div className=' bg-blue-200 rounded-lg p-6'>
