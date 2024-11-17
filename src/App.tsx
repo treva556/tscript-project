@@ -1,13 +1,21 @@
 import React from 'react';
+import NotesList from './components/NoteList';
+import NoteForm from './components/NoteForm';
 
 import './App.css';
 
-function App() {
+const App = () => {
+  const handleNoteAdded = () => {
+    // Logic to handle note addition (e.g., refresh the notes list)
+    console.log('Note added');
+  };
   return (
     <div className="App">
       <header className="App-header">
             HERO
       </header>
+      <NotesList />
+      {/* <NoteForm onNoteAdded={handleNoteAdded} /> */}
       <div className=' mt-4 h-10'>
         <p className=' underline'> About  </p>
       </div>
